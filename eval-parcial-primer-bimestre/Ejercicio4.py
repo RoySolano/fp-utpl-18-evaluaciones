@@ -1,0 +1,13 @@
+
+print("Sistema de ecuaciones:")
+print("ax + by = c")
+print("dx + ey = f")
+a = float(input("Ingrese el valor de a: "))
+b = float(input("Ingrese el valor de b: "))
+c = float(input("Ingrese el valor de c: "))
+d = float(input("Ingrese el valor de d: "))
+e = float(input("Ingrese el valor de e: "))
+f = float(input("Ingrese el valor de f: "))
+x = (c*e - b*f) / (a*e - b*d)
+y = (c*e - b*f) / (a*e - b*d)
+print("Valor de x = %.2f\nValor de y = %.2f\n" % (x,y))
